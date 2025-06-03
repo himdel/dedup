@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>P4 - Deduplication</title>
+    <link rel="stylesheet" href="./app.css" />
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <h2>Source hosts (<span id="source_count"></span>)</h2>
+    <table id="source-table"></table>
+
+    <h2>Deduplicated hosts</h2>
+    <div id="variant-tabs"></div>
+    <table id="target-table"></table>
+    <span id="target_rating"></span><br />
+    <span id="iterations"></span>
+
+    <div style="height: 80em">
+      <!-- Blob of nothing to prevent rescrolls when table shortens -->
+    </div>
+    <small>&#x1F44B;&#x1F596;</small>
+  </body>
+</html>
